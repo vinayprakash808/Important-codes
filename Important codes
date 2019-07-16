@@ -1,0 +1,2 @@
+# to have a summary across 2 categories
+aggregate(allstocks$MaxProfit, allstocks[,c("day","source")], FUN=summary)
